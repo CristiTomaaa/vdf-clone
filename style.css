@@ -628,4 +628,87 @@ nav .container .right img:hover {
   -webkit-box-shadow: 0 0 18px #888888;
           box-shadow: 0 0 18px #888888;
 }
+
+.advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 22rem;
+  background-image: -webkit-gradient(linear, right top, left top, from(#ff0101), to(#bd0101));
+  background-image: linear-gradient(right, #ff0101, #bd0101);
+  min-width: 85rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem 0rem;
+}
+
+.advantages .subtitle h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  margin: 2rem 0rem;
+}
+
+.advantages .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantages .cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0rem 4rem;
+}
+
+.advantages .cards .card img {
+  width: 3rem;
+  margin-bottom: 1rem;
+}
+
+.advantages .cards .card h3 {
+  color: white;
+  margin-bottom: 0.7rem;
+}
+
+.advantages .cards .card p {
+  text-align: center;
+  color: white;
+}
+
+.advantages .cards .card button {
+  padding: 0.5rem 2rem;
+  background: transparent;
+  border-color: white;
+  border: 2px white solid;
+  border-radius: 0.4rem;
+  color: white;
+  margin: 1rem 0rem;
+}
+
+.advantages .cards .card button:hover {
+  color: black;
+  background: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 /*# sourceMappingURL=style.css.map */

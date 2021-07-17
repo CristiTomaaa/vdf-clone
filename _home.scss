@@ -398,6 +398,7 @@ nav {
   justify-content: center;
   height: 25rem;
   background-color: #e6e6e6;
+
   .subtitle {
     h2 {
       font-size: 2rem;
@@ -437,6 +438,65 @@ nav {
     .card:hover {
       margin-top: -5px;
       box-shadow: 0 0 18px rgb(136, 136, 136);
+    }
+  }
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  height: 22rem;
+  background-image: linear-gradient(right, #ff0101, #bd0101);
+  min-width: 85rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem 0rem;
+
+  .subtitle {
+    h2 {
+      font-size: 2rem;
+      font-weight: 300;
+      text-align: center;
+      color: white;
+      margin: 2rem 0rem;
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0rem 4rem;
+      img {
+        width: 3rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        color: white;
+        margin-bottom: 0.7rem;
+      }
+      p {
+        text-align: center;
+        color: white;
+      }
+      button {
+        padding: 0.5rem 2rem;
+        background: transparent;
+        border-color: white;
+        border: 2px white solid;
+        border-radius: 0.4rem;
+        color: white;
+        margin: 1rem 0rem;
+      }
+      button:hover {
+        color: black;
+        background: white;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+      }
     }
   }
 }
