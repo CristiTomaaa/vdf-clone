@@ -445,7 +445,7 @@ nav {
 .advantages {
   display: flex;
   flex-direction: column;
-  height: 22rem;
+  height: 25rem;
   background-image: linear-gradient(right, #ff0101, #bd0101);
   min-width: 85rem;
   width: 100%;
@@ -454,11 +454,11 @@ nav {
 
   .subtitle {
     h2 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       font-weight: 300;
       text-align: center;
       color: white;
-      margin: 2rem 0rem;
+      margin: 3rem 0rem;
     }
   }
   .cards {
@@ -483,13 +483,13 @@ nav {
         color: white;
       }
       button {
-        padding: 0.5rem 2rem;
+        padding: 1rem 3rem;
         background: transparent;
         border-color: white;
         border: 2px white solid;
         border-radius: 0.4rem;
         color: white;
-        margin: 1rem 0rem;
+        margin: 1.5rem 0rem;
       }
       button:hover {
         color: black;

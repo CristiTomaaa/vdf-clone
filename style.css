@@ -637,7 +637,7 @@ nav .container .right img:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 22rem;
+  height: 25rem;
   background-image: -webkit-gradient(linear, right top, left top, from(#ff0101), to(#bd0101));
   background-image: linear-gradient(right, #ff0101, #bd0101);
   min-width: 85rem;
@@ -647,11 +647,11 @@ nav .container .right img:hover {
 }
 
 .advantages .subtitle h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 300;
   text-align: center;
   color: white;
-  margin: 2rem 0rem;
+  margin: 3rem 0rem;
 }
 
 .advantages .cards {
@@ -696,13 +696,13 @@ nav .container .right img:hover {
 }
 
 .advantages .cards .card button {
-  padding: 0.5rem 2rem;
+  padding: 1rem 3rem;
   background: transparent;
   border-color: white;
   border: 2px white solid;
   border-radius: 0.4rem;
   color: white;
-  margin: 1rem 0rem;
+  margin: 1.5rem 0rem;
 }
 
 .advantages .cards .card button:hover {
