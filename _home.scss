@@ -163,7 +163,11 @@ nav {
 
 .promotion {
   height: 32rem;
+  background-image: url(/img/bg2.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
   background-color: #b40001;
+
   display: flex;
   align-items: center;
   .container {
@@ -201,7 +205,7 @@ nav {
       display: flex;
       margin-right: 15rem;
       img {
-        height: 20rem;
+        height: 30rem;
         width: auto;
       }
     }
@@ -496,6 +500,85 @@ nav {
         background: white;
         -webkit-transition: all 0.3s ease;
         transition: all 0.3s ease;
+      }
+    }
+  }
+}
+
+.discover {
+  display: flex;
+  height: 25rem;
+  background-color: #4b4e4f;
+  min-width: 85rem;
+  width: 100%;
+  justify-content: center;
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      color: white;
+      font-weight: lighter;
+      margin: 1.1rem;
+      font-size: 2.2rem;
+    }
+    .cards {
+      display: flex;
+      min-width: 85rem;
+      align-items: center;
+      justify-content: center;
+      .card {
+        display: flex;
+        align-items: flex-end;
+        margin: 1rem;
+        height: 20rem;
+        width: 25rem;
+        border-radius: 0.5rem;
+        width: 100%;
+        .card-content {
+          display: flex;
+          flex-direction: column;
+          background-color: #fff;
+          height: 10rem;
+          width: 100%;
+          border-bottom-left-radius: 0.5rem;
+          border-bottom-right-radius: 0.5rem;
+          .content {
+            display: flex;
+            flex-direction: column;
+            margin: 1rem;
+            h2 {
+              margin-bottom: 0.5rem;
+              color: #4a4d4e;
+              font-weight: lighter;
+            }
+            a {
+              margin: 0.2rem;
+              text-decoration: none;
+              color: #4a4d4e;
+            }
+            a:hover {
+              color: red;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      .card:nth-child(1) {
+        background-image: url(/img/card1.jpg);
+
+        background-size: cover;
+      }
+      .card:nth-child(2) {
+        background-image: url(/img/card2.jpg);
+
+        background-size: cover;
+      }
+      .card:nth-child(3) {
+        background-image: url(/img/card3.png);
+
+        background-size: cover;
       }
     }
   }
