@@ -223,6 +223,9 @@ nav .container .right img:hover {
 
 .promotion {
   height: 32rem;
+  background-image: url(/img/bg2.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
   background-color: #b40001;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,7 +286,7 @@ nav .container .right img:hover {
 }
 
 .promotion .container .sim img {
-  height: 20rem;
+  height: 30rem;
   width: auto;
 }
 
@@ -710,5 +713,123 @@ nav .container .right img:hover {
   background: white;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.discover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25rem;
+  background-color: #4b4e4f;
+  min-width: 85rem;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.discover .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.discover .container h2 {
+  color: white;
+  font-weight: lighter;
+  margin: 1.1rem;
+  font-size: 2.2rem;
+}
+
+.discover .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 85rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.discover .container .cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 1rem;
+  height: 20rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.discover .container .cards .card .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  height: 10rem;
+  width: 100%;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.discover .container .cards .card .card-content .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem;
+}
+
+.discover .container .cards .card .card-content .content h2 {
+  margin-bottom: 0.5rem;
+  color: #4a4d4e;
+  font-weight: lighter;
+}
+
+.discover .container .cards .card .card-content .content a {
+  margin: 0.2rem;
+  text-decoration: none;
+  color: #4a4d4e;
+}
+
+.discover .container .cards .card .card-content .content a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.discover .container .cards .card:nth-child(1) {
+  background-image: url(/img/card1.jpg);
+  background-size: cover;
+}
+
+.discover .container .cards .card:nth-child(2) {
+  background-image: url(/img/card2.jpg);
+  background-size: cover;
+}
+
+.discover .container .cards .card:nth-child(3) {
+  background-image: url(/img/card3.png);
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
